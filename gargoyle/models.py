@@ -45,7 +45,7 @@ class Switch(models.Model):
     }
 
     key = models.CharField(max_length=64, primary_key=True)
-    value = models.JSONField(default=dict)
+    value = models.JSONField(default=dict, blank=True)
     label = models.CharField(max_length=64, null=True)
     date_created = models.DateTimeField(default=now)
     date_modified = models.DateTimeField(auto_now=True)

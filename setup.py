@@ -41,7 +41,7 @@ setup(
         'django-modeldict-yplan',
         "nexus-yplan @ git+https://github.com/avallbona/nexus.git@7aac54882a58c14c15477346e7b864e93bfd1f58#egg=nexus-yplan",
     ],
-    python_requires='>=3.11',
+    python_requires='>=3.9',
     license='Apache License 2.0',
     include_package_data=True,
     classifiers=[
