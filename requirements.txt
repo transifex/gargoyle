@@ -12,7 +12,7 @@ click==8.1.7
     # via black
 coverage[toml]==7.4.4
     # via pytest-cov
-django==4.2.11
+django==5.2.16
     # via django-modeldict-yplan
 django-modeldict-yplan==2.0.3
     # via -r requirements.in
